@@ -98,6 +98,7 @@ isRequired if there is a * in the name field
 ----|----|-----|
 |**dataSource** *|array|
 |**keyExtractor**|func.isRequired|(item,index) => key
+|**countExtractor**|func|(item) => number
 |**renderItem** *|func|render item view
 |**onDataChange**|func|This method is called every time the data changes.
 |**renderHeaderView**|element
