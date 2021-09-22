@@ -24,7 +24,7 @@
   "author": "mochixuan",
   "license": "ISC",
   "dependencies": {
-    "react-native-reanimated": "^2.2.2"
+    "react-native-reanimated": "^2.3.0-alpha.3"
   },
   "devDependencies": {},
   "bugs": {
