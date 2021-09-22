@@ -98,6 +98,7 @@ isRequired if there is a * in the name field
 ----|----|-----|
 |**dataSource** *|array|
 |**keyExtractor**|func.isRequired|(item,index) => key
+|**countExtractor**|func|(item) => number
 |**renderItem** *|func|render item view
 |**onDataChange**|func|This method is called every time the data changes.
 |**renderHeaderView**|element
@@ -112,6 +113,7 @@ isRequired if there is a * in the name field
 |**onScrollRef** | (ref: any) => void
 |**areaOverlapRatio**|number| Must be greater than 0.5
 |**movedWrapStyle**| StyleProp<ViewStyle> |style
+|**ghostStyle**| StyleProp<ViewStyle> |style
 |**childMarginTop**|number
 |**childMarginBottom**|number
 |**childMarginLeft**|number
